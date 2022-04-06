@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: var(--white-color);
+}
+
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: #ffcb3e;
+    --background-color: #f2f2f2;
+    --footer-color: #434343;
+
+    --navSearch-height: 87px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+img{
+    width: 100%;
+}
+
+.tree-btn{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #3c64b1;
+}
+
+.tree-btn.layer{
+    background-color: #3c64b1;
+    color: var(--white-color);
+}
+
+.tree-btn.banner{
+    border: 1px solid #3c64b1;
+}
