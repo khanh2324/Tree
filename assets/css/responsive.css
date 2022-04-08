@@ -1,0 +1,37 @@
+/* Mobile & tablet */
+@media (max-width: 1023px){
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .box-wrap {
+        margin-bottom: 36px;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet{
+        display: none;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 740px){
+    .hide-on-mobile{
+        display: none;
+    }
+
+    .padding-mobile{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+}
+
+/*  PC Độ phân giải thấp */
+@media (min-width: 1024px) and (max-width: 1239px){
+   
+}
